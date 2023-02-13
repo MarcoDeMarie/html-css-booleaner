@@ -1,0 +1,28 @@
+header h1{
+  margin-bottom: 0;
+}
+
+header div span {
+  color: aqua;
+}
+
+.pattern{
+  width: 100%;
+  height: 100px;
+  background-image: url('../img/pattern.png');
+  background-color: aqua;
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.scrittore {
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.descrizione-foto{
+  font-size: small;
+}
