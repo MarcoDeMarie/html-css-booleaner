@@ -2,7 +2,6 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 header h1{
   margin-bottom: 0;
 }
@@ -13,6 +12,7 @@ header div span {
 
 table{
   text-align: left;
+  border-collapse: collapse;
 }
 thead{
   background-color: rgb(15, 165, 235);
@@ -32,7 +32,7 @@ footer strong{
   background-position: center;
   color: aliceblue;
   font-size: 30px;
-}
+  }
 
 .scrittore {
   color: grey;
