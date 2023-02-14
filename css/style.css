@@ -1,15 +1,55 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-header h1{
-  margin-bottom: 0;
+*{
+  margin: 0;
 }
 
-header div span {
-  color: aqua;
+img{
+  max-width: 100%;
+}
+/*HEADER*/
+header{
+  background-color: aqua;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  background-image: url('../img/pattern.png');
+  height: 50px;
+}
+.logo{
+  width: 200px;
+}
+/*HEADER*/
+
+
+/*MAIN*/
+main{
+padding: 20px;
 }
 
+ul{
+  padding-bottom: 20px;
+}
+
+.scrittore {
+  color: grey;
+  padding-bottom: 5px;
+  
+}
+
+.descrizione-foto{
+  font-size: small;
+  padding-bottom: 5px;
+}
+
+.evidenziatore{
+  background-color: yellow;
+}
+/*MAIN*/
+
+
+/*TABELLA*/
 table{
   text-align: left;
   border-collapse: collapse;
@@ -17,34 +57,6 @@ table{
 thead{
   background-color: rgb(15, 165, 235);
   color: aliceblue;
-}
-footer strong{
-  color: grey;
-}
-
-.pattern{
-  width: 100%;
-  height: 100px;
-  background-image: url('../img/pattern.png');
-  background-color: aqua;
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: center;
-  color: aliceblue;
-  font-size: 30px;
-  }
-
-.scrittore {
-  color: grey;
-  margin-bottom: 20px;
-}
-
-.descrizione-foto{
-  font-size: small;
-}
-
-.evidenziatore{
-  background-color: yellow;
 }
 
 .colonna-1{
@@ -58,6 +70,18 @@ footer strong{
 
 .row {
   background-color: rgb(160, 237, 243);
+}
+/*TABELLA*/
+
+
+/*FOOTER*/
+footer{
+  padding: 20px;
+}
+
+
+footer strong{
+  color: grey;
 }
 
 .monitor{
@@ -76,4 +100,4 @@ footer strong{
   color: aliceblue;
   font-size: 26px;
 }
-
+/*FOOTER*/
